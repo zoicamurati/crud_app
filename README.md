@@ -45,3 +45,9 @@ User management (Create, Read, Update, Delete)
    # or, without Symfony CLI
    php -S localhost:8000 -t public/
 ```
+## Architecture Overview
+The implementation follows a three-layer architecture:
+
+- Controller Layer - Handles HTTP requests and responses
+- Service Layer - Contains all business logic
+- Repository Layer - Manages database operations
